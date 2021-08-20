@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: 'Style Script', cursive;
+    overflow: hidden;
+    
+}
+.container .head{
+    padding:5%;
+    text-align: left;
+}
+.container .head h1{
+    color:rgb(238, 232, 232);
+    font-size: 42px;
+    text-transform: capitalize;
+   
+}
+.container .head .form_note textarea{
+    height: 500px;
+    width: 962px;
+    font-size: 30px;
+
+}
+.logout{
+    width:100%;
+    z-index: 9;
+}
+.logout .log{
+    position: absolute;
+    align-items: left;
+    margin-right: 0px;
+}
+.logout .log a{
+    text-decoration: none;
+    color:white;
+}
